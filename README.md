@@ -1,5 +1,5 @@
-# Aplicación de Mensajería MyApplication2687340M en Compose
-Este repositorio contiene una aplicación de mensajería simple construida con Jetpack Compose, una moderna herramienta de interfaz de usuario para crear interfaces nativas en Android. La aplicación muestra una lista de mensajes en un formato de conversación, permitiendo a los usuarios expandir y contraer mensajes individuales para una mejor legibilidad.
+# MyApplication2687340M en Compose tutorial de andriod
+Este repositorio contiene una aplicación de mensajería simple construida con  una imagen y diferentes caracteristicas como temas y arreglos en la imagen con Jetpack Compose, una moderna herramienta de interfaz de usuario para crear interfaces nativas en Android. La aplicación muestra una lista de mensajes en un formato de conversación, permitiendo a los usuarios expandir y contraer mensajes individuales para una mejor legibilidad.
 
 # Características
 Mostrar mensajes en un formato de conversación.
@@ -10,15 +10,16 @@ Vista Previa Modo Claro
 Vista Previa Modo Oscuro
 
 # Componentes
-MainActivity: El punto de entrada de la aplicación. Configura el tema y muestra el componible Conversation.
+MainActivity: El punto de entrada de la aplicación. Configura el tema, ademas de tener y renderizar una imagen y muestra el componible Conversation.
 
 MessageCard: Un componible que representa un mensaje individual. Incluye el nombre del autor, una imagen de perfil circular y el cuerpo del mensaje. Los usuarios pueden hacer clic en un mensaje para expandir/contraer su contenido.
 
 Conversation: Un componible que recibe una lista de objetos Message y los muestra utilizando un LazyColumn. Utiliza el componible MessageCard para renderizar cada mensaje.
 
 # Modelo de Datos
-Message: Una clase de datos que representa un mensaje en la conversación. Contiene el nombre del autor y el cuerpo del mensaje.
-Previsualizaciones
+Message: Una clase de datos que representa un mensaje en la conversación, la imagen y su modificacion. Contiene el nombre del autor y el cuerpo del mensaje.
+
+# Previsualizaciones
 PreviewMessageCard: Proporciona una vista previa del componible MessageCard en los modos claro y oscuro.
 
 PreviewConversation: Proporciona una vista previa del componible Conversation utilizando datos de muestra.
@@ -29,11 +30,13 @@ Para ejecutar la aplicación, sigue estos pasos:
 Clona este repositorio.
 Abre el proyecto en Android Studio.
 Compila y ejecuta la aplicación en un emulador o dispositivo físico.
-Requisitos
+
+# Requisitos
 Android Studio 
 Android SDK 
 Kotlin 
 Jetpack Compose 
+
 # Reconocimientos
 Esta aplicación fue creada como una demostración de cómo construir una interfaz de usuario de mensajería simple utilizando Jetpack Compose. Utiliza componentes de Material Design y muestra la flexibilidad y facilidad de desarrollo que ofrece Jetpack Compose.
 
