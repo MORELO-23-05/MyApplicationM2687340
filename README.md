@@ -1,4 +1,4 @@
-# MyApplication2687340M en Compose tutorial de andriod
+# Tutorial de jetpack Compose en Kotlin.
 Este repositorio contiene una aplicación de mensajería simple construida con  una imagen y diferentes caracteristicas como temas y arreglos en la imagen con Jetpack Compose, una moderna herramienta de interfaz de usuario para crear interfaces nativas en Android. La aplicación muestra una lista de mensajes en un formato de conversación, permitiendo a los usuarios expandir y contraer mensajes individuales para una mejor legibilidad.
 
 # Características
